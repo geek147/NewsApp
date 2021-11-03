@@ -1,4 +1,4 @@
-# Kumparan App
+# News App
 
 This app try to show data from jsonplaceholderl.com
 
