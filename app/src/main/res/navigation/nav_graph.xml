@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/postFragment">
+
+    <fragment
+        android:id="@+id/postFragment"
+        android:name="com.envious.kumparan.ui.fragments.PostFragment"
+        android:label="Post" >
+        <action
+            android:id="@+id/action_postFragment_to_detailPostFragment"
+            app:destination="@id/detailPostFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailPostFragment"
+        android:name="com.envious.kumparan.ui.fragments.DetailPostFragment"
+        android:label="Detail Post" >
+        <action
+            android:id="@+id/action_detailPostFragment_to_userDetailFragment"
+            app:destination="@id/userDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/userDetailFragment"
+        android:name="com.envious.kumparan.ui.fragments.UserDetailFragment"
+        android:label="fragment_user_detail"
+        tools:layout="@layout/fragment_user_detail" >
+        <action
+            android:id="@+id/action_userDetailFragment_to_photoDetailFragment"
+            app:destination="@id/photoDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/photoDetailFragment"
+        android:name="com.envious.kumparan.ui.fragments.PhotoDetailFragment"
+        android:label="fragment_photo_detail"
+        tools:layout="@layout/fragment_photo_detail" />
+</navigation>
