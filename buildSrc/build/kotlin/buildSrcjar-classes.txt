@@ -1,0 +1,1 @@
+/Users/ilhamaulia/Documents/ilhamfolder/Kumparan/buildSrc/build/classes/kotlin/main/BuildPlugins.class:/Users/ilhamaulia/Documents/ilhamfolder/Kumparan/buildSrc/build/classes/kotlin/main/Deps.class:/Users/ilhamaulia/Documents/ilhamfolder/Kumparan/buildSrc/build/classes/kotlin/main/Versions.class
